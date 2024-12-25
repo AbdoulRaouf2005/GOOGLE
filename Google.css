@@ -1,0 +1,66 @@
+body{
+    background-color:white;
+}
+.NUM{
+    font-family:Arial;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    padding-left: 500px;
+    padding-top: 150px;
+}
+.ONE{
+    color: blue;
+}
+.TWO{
+    color: crimson;
+}
+.TREE{
+    color: yellow;
+}
+.FOUR{
+    color: blue;
+}
+.FIVE{
+    color: green;
+}
+.SIX{
+    color: crimson;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    position: absolute;
+    left: 400px;
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.search-input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaa;
+}
+.mic-icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.search-input::placeholder{
+    color: #aaa;
+}
+button{
+    border: none;
+    background-color: #fff;
+}
